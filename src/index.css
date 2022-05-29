@@ -72,6 +72,9 @@ a {
 }
 
 body {
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
     font: var(--fw-light) 1.125rem/1.25 'Rubik', sans-serif;
     color: var(--clr-white);
     padding: 5.0625rem 1.5rem;
@@ -87,6 +90,7 @@ body {
 body > * {
     display: grid;
     gap: 1.5rem;
+    width: 100%;
     max-width: 51.5rem;
     margin: auto;
 }
